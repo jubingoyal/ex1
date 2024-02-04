@@ -27,9 +27,8 @@ function newOrder() {
     let apiSecret = "";
 
     // calculate the signature
-    let sign = util.getSign(timestamp, method, requestPath, "", data, apiSecret);
-
-    let dataJsonStr = JSON.stringify(data);
+    let dataJsonStr = JSON.stringify(data); 
+    let sign = util.getSign(timestamp, method, requestPath, "", dataJsonStr, apiSecret);
 
     let options = {
         method: method,
