@@ -17,7 +17,7 @@ function getOrder() {
     let method = "GET";
 
     // set the domain url for calling OpenApi
-    let url = "https://openapi.xxx.com/sapi/v1/order" + "?" + queryString;
+    let url = "https://openapi.exchange1.com/sapi/v1/order" + "?" + queryString;
 
     let requestPath = "/sapi/v1/order";
 
