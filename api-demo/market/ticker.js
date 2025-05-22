@@ -13,7 +13,7 @@ function ticker() {
     let method = "GET";
 
     // set the domain url for calling OpenApi
-    let url = "https://openapi.xxx.com/sapi/v1/ticker" + "?" + queryString;
+    let url = "https://openapi.exchange1.com/sapi/v1/ticker" + "?" + queryString;
 
     let options = {
         method: method,
