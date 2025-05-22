@@ -18,7 +18,7 @@ function newOrder() {
     let method = "POST";
 
     // set the domain url for calling OpenApi
-    let url = "https://openapi.xxx.com/sapi/v1/order";
+    let url = "https://openapi.exchange1.com/sapi/v1/order";
 
     let requestPath = "/sapi/v1/order";
 
